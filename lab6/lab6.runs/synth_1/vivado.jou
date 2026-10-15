@@ -3,8 +3,8 @@
 # SW Build 5266912 on Sun Dec 15 09:03:31 MST 2024
 # IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
 # SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
-# Start of session at: Wed Oct 14 18:35:08 2026
-# Process ID         : 3656504
+# Start of session at: Wed Oct 14 19:09:28 2026
+# Process ID         : 3666709
 # Current directory  : /home/a02421147/ECE2700/LAB6/lab6/lab6.runs/synth_1
 # Command line       : vivado -log ripple_carry_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ripple_carry_Top.tcl
 # Log file           : /home/a02421147/ECE2700/LAB6/lab6/lab6.runs/synth_1/ripple_carry_Top.vds
@@ -13,12 +13,12 @@
 # Platform           : AlmaLinux
 # Operating System   : AlmaLinux 9.6 (Sage Margay)
 # Processor Detail   : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
-# CPU Frequency      : 4097.160 MHz
+# CPU Frequency      : 4095.912 MHz
 # CPU Physical cores : 4
 # CPU Logical cores  : 8
 # Host memory        : 16513 MB
 # Swap memory        : 8409 MB
 # Total Virtual      : 24923 MB
-# Available Virtual  : 11546 MB
+# Available Virtual  : 10997 MB
 #-----------------------------------------------------------
 source ripple_carry_Top.tcl -notrace

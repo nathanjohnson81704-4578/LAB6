@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2.1 (lin64) Build 5266912 Sun Dec 15 09:03:31 MST 2024
-| Date         : Wed Oct 14 18:36:21 2026
+| Date         : Wed Oct 14 19:10:52 2026
 | Host         : el120-03.ece.usu.edu running 64-bit AlmaLinux 9.6 (Sage Margay)
 | Command      : report_utilization -file ripple_carry_Top_utilization_placed.rpt -pb ripple_carry_Top_utilization_placed.pb
 | Design       : ripple_carry_Top
@@ -74,8 +74,8 @@ Table of Contents
 |   SLICEM                                 |    0 |     0 |            |           |       |
 | LUT as Logic                             |    4 |     0 |          0 |     20800 |  0.02 |
 |   using O5 output only                   |    0 |       |            |           |       |
-|   using O6 output only                   |    2 |       |            |           |       |
-|   using O5 and O6                        |    2 |       |            |           |       |
+|   using O6 output only                   |    3 |       |            |           |       |
+|   using O5 and O6                        |    1 |       |            |           |       |
 | LUT as Memory                            |    0 |     0 |          0 |      9600 |  0.00 |
 |   LUT as Distributed RAM                 |    0 |     0 |            |           |       |
 |     using O5 output only                 |    0 |       |            |           |       |
@@ -185,9 +185,9 @@ Table of Contents
 +----------+------+---------------------+
 | IBUF     |    8 |                  IO |
 | OBUF     |    5 |                  IO |
-| LUT6     |    2 |                 LUT |
-| LUT3     |    2 |                 LUT |
-| LUT4     |    1 |                 LUT |
+| LUT4     |    2 |                 LUT |
+| LUT6     |    1 |                 LUT |
+| LUT5     |    1 |                 LUT |
 | LUT2     |    1 |                 LUT |
 +----------+------+---------------------+
 

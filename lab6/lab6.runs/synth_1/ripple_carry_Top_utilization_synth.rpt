@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2.1 (lin64) Build 5266912 Sun Dec 15 09:03:31 MST 2024
-| Date         : Wed Oct 14 18:35:42 2026
+| Date         : Wed Oct 14 19:10:02 2026
 | Host         : el120-03.ece.usu.edu running 64-bit AlmaLinux 9.6 (Sage Margay)
 | Command      : report_utilization -file ripple_carry_Top_utilization_synth.rpt -pb ripple_carry_Top_utilization_synth.pb
 | Design       : ripple_carry_Top
@@ -154,9 +154,9 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | IBUF     |    8 |                  IO |
 | OBUF     |    5 |                  IO |
-| LUT6     |    2 |                 LUT |
-| LUT3     |    2 |                 LUT |
-| LUT4     |    1 |                 LUT |
+| LUT4     |    2 |                 LUT |
+| LUT6     |    1 |                 LUT |
+| LUT5     |    1 |                 LUT |
 | LUT2     |    1 |                 LUT |
 +----------+------+---------------------+
 

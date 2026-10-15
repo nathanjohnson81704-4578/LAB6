@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2.1 (lin64) Build 5266912 Sun Dec 15 09:03:31 MST 2024
-| Date             : Wed Oct 14 18:36:37 2026
+| Date             : Wed Oct 14 19:11:08 2026
 | Host             : el120-03.ece.usu.edu running 64-bit AlmaLinux 9.6 (Sage Margay)
 | Command          : report_power -file ripple_carry_Top_power_routed.rpt -pb ripple_carry_Top_power_summary_routed.pb -rpx ripple_carry_Top_power_routed.rpx
 | Design           : ripple_carry_Top
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 7.961        |
+| Total On-Chip Power (W)  | 6.842        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 7.847        |
-| Device Static (W)        | 0.114        |
+| Dynamic (W)              | 6.739        |
+| Device Static (W)        | 0.103        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 45.2         |
-| Junction Temperature (C) | 64.8         |
+| Max Ambient (C)          | 50.8         |
+| Junction Temperature (C) | 59.2         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,12 +52,13 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.024 |        6 |       --- |             --- |
-|   LUT as Logic |     0.024 |        4 |     20800 |            0.02 |
-| Signals        |     0.084 |       14 |       --- |             --- |
-| I/O            |     7.739 |       13 |       106 |           12.26 |
-| Static Power   |     0.114 |          |           |                 |
-| Total          |     7.961 |          |           |                 |
+| Slice Logic    |     0.020 |        6 |       --- |             --- |
+|   LUT as Logic |     0.020 |        4 |     20800 |            0.02 |
+|   Others       |     0.000 |        1 |       --- |             --- |
+| Signals        |     0.075 |       13 |       --- |             --- |
+| I/O            |     6.644 |       13 |       106 |           12.26 |
+| Static Power   |     0.103 |          |           |                 |
+| Total          |     6.842 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,9 +68,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.184 |       0.140 |      0.044 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.299 |       0.282 |      0.016 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     2.183 |       2.182 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.162 |       0.126 |      0.036 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.258 |       0.242 |      0.015 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     1.873 |       1.872 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -134,7 +135,7 @@ Table of Contents
 +------------------+-----------+
 | Name             | Power (W) |
 +------------------+-----------+
-| ripple_carry_Top |     7.847 |
+| ripple_carry_Top |     6.739 |
 +------------------+-----------+
 
 

@@ -11,6 +11,7 @@ Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.full_adder
 Compiling module xil_defaultlib.ripple_carry_adder_default
+Compiling module xil_defaultlib.carry_select_adder
 Compiling module xil_defaultlib.ripple_carry_Test
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot ripple_carry_Test_behav

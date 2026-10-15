@@ -109,6 +109,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 2
+  set_param xicom.use_bs_reader 1
   set_param synth.incrementalSynthesisCache ./.Xil/Vivado-3603819-el120-03.ece.usu.edu/incrSyn
   set_param runs.launchOptions { -jobs 4  }
   open_checkpoint ripple_carry_Top_routed.dcp

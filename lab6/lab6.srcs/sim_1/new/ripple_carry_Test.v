@@ -28,7 +28,7 @@ module ripple_carry_Test(
     reg Cin;
     wire [3:0] Sum;
     
-    ripple_carry_adder DUT(
+    carry_select_adder DUT(
     .a(A),
     .b(B),
     .cin(Cin),

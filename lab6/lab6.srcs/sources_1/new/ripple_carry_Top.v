@@ -25,7 +25,7 @@ module ripple_carry_Top(
         output [4:0] led
     );
     
-    ripple_carry_adder DUT(
+    carry_select_adder DUT(
         .a(A),
         .b(B),
         .cin(Cin),
